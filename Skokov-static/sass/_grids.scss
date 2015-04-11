@@ -1,0 +1,19 @@
+// Requirements
+// ============
+
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/3,
+  container: 1633px,
+  math: fluid,
+  gutter-position: inside,
+
+  debug: (
+    image: hide,
+    color: rgba(#c3c2c0, .25),
+    output: background,
+    toggle: top right,
+  ),
+);
